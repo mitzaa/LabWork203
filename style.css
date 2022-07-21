@@ -1,0 +1,164 @@
+h1{
+    position: absolute;
+    color: black;
+    font-size: 25px;
+    left: 50%;
+    font-weight: bolder;
+
+
+
+}
+
+header{
+    position: relative;
+    left: 500px;
+    right: 500px;
+
+}
+
+footer{
+   text-align: center;
+   padding: 10px;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+h2{
+    color:aliceblue;
+}
+
+p{
+    color:aliceblue;
+}
+
+body{
+    background: darkblue;
+}
+
+header{
+    background: rgb(54, 144, 255);
+
+}
+
+nav{
+    background: rgb(255,198,45);
+}
+
+main{
+    background: blue;
+
+}
+
+footer{
+    background: rgb(255,198,45);
+}
+
+.firsth2{
+    font-weight: bolder;
+}
+
+.secondh2{
+    font-style: italic;
+}
+
+.thirdh2{
+    color:aqua;
+}
+
+/* *{
+    border: 2px solid red;
+    margin: 10px;
+} */
+
+.img{
+    margin:20px;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0% 0%;
+    border-radius: 50px;
+}
+
+.img-position{
+    display:block;
+    margin:auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 16px 4px red;
+
+}
+
+figure{
+    display:inline-block;
+
+}
+
+#polly1{
+    filter:blur(5px)
+
+}
+
+#polly2{
+    filter:brightness(300%)
+
+}
+
+#polly3{
+    filter:contrast(300%)
+
+}
+
+#polly4{
+    filter: opacity(40%);
+}
+
+
+#polly5{
+    filter:grayscale(100%)
+
+}
+
+#polly6{
+    filter:invert(100%)
+    
+}
+
+#polly7{
+    filter: hue-rotate(90deg);
+
+}
+
+#polly8{
+    filter:sepia(80%)
+
+}
+
+#polly9{
+    filter:saturate(300%)
+
+}
+
+figcaption{
+  background-color: rgba(79, 44, 16, 0.6);
+  height: 1.2em;
+  width: 100%;
+  margin-top: -2.4em;
+  float: right;
+  text-align: center;
+  color: white;
+  z-index: 1;
+  font-family: 'Open Sans', sans;
+  position: absolute;
+  bottom: 8px;
+  left: 30px;
+
+
+
+}
+
+
+
